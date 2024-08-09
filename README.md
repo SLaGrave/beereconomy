@@ -12,3 +12,5 @@ It takes too much brain power to manually keep track of who owes who what. The s
 
 - `backend/`: Contains backend (API & Database) code.
 - `docs/`: Frontend/user-facing code. Should be named `frontend/` but this makes it easier to push to github pages.
+
+I like to use seperate .gitignore files for each section to keep them clean.
