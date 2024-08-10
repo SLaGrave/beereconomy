@@ -1,0 +1,19 @@
+/***************************************************************
+* Loader animation
+* From:
+*   https://blog.hubspot.com/website/css-loading-animation
+***************************************************************/
+.loader {
+    margin: auto;
+    border: 10px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 10px solid #6888f0;
+    width: 100px;
+    height: 100px;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
