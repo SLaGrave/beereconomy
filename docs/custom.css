@@ -17,3 +17,13 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/***************************************************************
+* Footer
+* From:
+*   https://blog.hubspot.com/website/css-loading-animation
+***************************************************************/
+.footer {
+    position: fixed;
+    bottom: 0;
+}
